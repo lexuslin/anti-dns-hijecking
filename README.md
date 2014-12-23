@@ -1,4 +1,4 @@
-# anti-dns-hijecking
+# Anti-DNS-Hijecking
 
 目前从部分用户反映，我们的移动终端页面受到dns劫持并插入广告的情况，此工具能够查找被插入的代码，并把劫持方式上报
 
