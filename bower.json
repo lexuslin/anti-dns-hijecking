@@ -1,0 +1,11 @@
+{
+  "name": "anti-dns-hijecking",
+  "version": "1.0.0",
+  "main": "",
+  "ignore": [
+  ],
+  "dependencies": {
+    "jquery-anti-dns-hijecking": "*",
+    "zepto": "*"
+  }
+}

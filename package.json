@@ -1,0 +1,25 @@
+{
+  "name": "anti_dns_hijecking",
+  "version": "1.0.0",
+  "description": "anti dns hijecking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.tools.vipshop.com/lexus.lin/anti_dns_hijecking.git"
+  },
+  "author": "lexus.lin",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt" : "*",
+    "grunt-contrib-clean" : "*",
+    "grunt-contrib-copy" : "*",
+    "grunt-contrib-uglify" : "*",
+    "grunt-contrib-htmlmin" : "*",
+    "grunt-replace" : "*"
+  },
+  "dependencies": {
+  }
+}
