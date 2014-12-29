@@ -39,7 +39,7 @@ module.exports = function(grunt) {
             dist: {
                 options: {
                     patterns: [{
-                        match: /(<[a-z]*)(\s|>)/g,
+                        match: /(<[a-z]+)(\s|>)/g,
                         replacement: '$1 anti-hijecking$2'
                     }, {
                         match: /<\/body>/g,
