@@ -43,7 +43,7 @@ module.exports = function(grunt) {
                         replacement: '$1 anti-hijecking$2'
                     }, {
                         match: /<\/body>/g,
-                        replacement: '<script>\n<%= grunt.file.read("dist/js/jquery-anti-dns-hijecking.min.js") %>\n</script>\n</body>'
+                        replacement: '<script>\n{literal}\n<%= grunt.file.read("dist/js/jquery-anti-dns-hijecking.min.js") %>\n{/literal}\n</script>\n</body>'
                     }]
                 },
                 files: [{
